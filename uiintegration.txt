@@ -1,0 +1,22 @@
+labelledDf1 = pd.DataFrame(data = {'gill-size': gillSize,'gill-color': gillColor,'population': population},index = [0])  
+
+encodedDf = pd.DataFrame({})
+for i in labelledDf1.columns:
+     encodedDf[i] = labelEncoders[i].transform(labelledDf1[i])
+
+
+
+featureArr = encodedDf.to_numpy()
+# print(featureArr)
+        
+prediction = model.predict(featureArr)
+# print(prediction)
+
+
+
+
+
+if(prediction[0]==0):
+       st.write("This mushroom is edible")
+else:
+       st.write("This mushroom is poisonous")
