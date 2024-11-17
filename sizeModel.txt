@@ -1,0 +1,26 @@
+
+
+
+def preprocess_image(image_path):
+    # Load the image with OpenCV and resize to (224, 224) for MobileNet
+    img = load_img(image_path, target_size=(224, 224))
+    
+    # Convert image to numpy array
+    img_array = img_to_array(img)
+    
+    # Add batch dimension (shape will be (1, 224, 224, 3))
+    img_array = np.expand_dims(img_array, axis=0)
+    
+    # Normalize pixel values to be between 0 and 1
+    img_array = img_array / 255.0
+
+    return img_array
+
+
+
+with open('sizeModel.pkl','rb') as modelFile:
+    model = pl.load(modelFile)
+
+print(model.predict(preprocess_image("./new Mushroom Pics/narrow/69.png")))
+
+
