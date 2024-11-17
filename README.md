@@ -2,12 +2,15 @@
 
 CheeseHacks 2024 hackathon project by Steven Ren (skren@wisc.edu), Rushil Sambangi (sambangi@wisc.edu), and Aditya Goyal (agoyal33@wisc.edu)
 
+## IMPORTANT
+Follow this link to download the main XGBoost model (too large for Git): https://drive.google.com/file/d/1fOkZZe6ltb3F4l4hvtHDszdacwwmv4Ey/view?usp=sharing
+
 ## Mushroom Edibility Predictor
 
-The starter code was generated using [expo](https://expo.dev/). **Do *not* re-run the expo init command**. After entering this directory and extracting the sizeModal.pkl from sizeModal.zip, simply run...
+The starter code was generated using [expo](https://expo.dev/). **Do *not* re-run the expo init command**. After entering this directory and adding the sizeModel.pkl to your root directory, simply run...
 
 ```bash
-pip install flask
+pip install -r requirements.txt
 python app.py
 npm install
 npm start
