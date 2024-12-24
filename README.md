@@ -2,7 +2,9 @@
 
 CheeseHacks 2024 hackathon project by Steven Ren (skren@wisc.edu), Rushil Sambangi (sambangi@wisc.edu), and Aditya Goyal (agoyal33@wisc.edu)
 
-[CheeseHacks 2024 Slide Deck](https://github.com/user-attachments/assets/b8c6b5d9-b266-4709-bc1d-517dd80d749e)
+![CheeseHacks 2024 Slide Deck](https://github.com/user-attachments/assets/b8c6b5d9-b266-4709-bc1d-517dd80d749e)
+
+[Slide Deck Link](https://docs.google.com/presentation/d/1zVptM4uPUQdoa3iAHSetyHCw4vvXDf3paGpF9aQ3340/edit?usp=sharing)
 
 ## IMPORTANT
 Follow this link to download the main XGBoost model (too large for Git): https://drive.google.com/file/d/1fOkZZe6ltb3F4l4hvtHDszdacwwmv4Ey/view?usp=sharing
